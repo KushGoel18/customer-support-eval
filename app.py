@@ -21,7 +21,7 @@ required_columns = [
 if not os.path.exists(CSV_FILE) or os.stat(CSV_FILE).st_size == 0:
     pd.DataFrame(columns=required_columns).to_csv(CSV_FILE, index=False)
 
-# Prompt Template
+# following is my prompt template 
 system_prompt = """
 You are an expert evaluator of customer support chats. Based on the conversation below:
 1. Summarize the conversation.

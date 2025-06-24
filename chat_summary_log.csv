@@ -1,0 +1,103 @@
+Conversation,Summary,Behavior Eval,Behavior Score,Conversation Eval,Conversation Score,Know-how Eval,Know-how Score,Agent Reported,Timestamp UTC,Date (IST),Time (IST)
+"Customer:
+Hi, I need to update my billing information for this month’s invoice.
+
+Agent:
+Sure, I can help with that. Could you please provide your credit card number, CVV, and expiry date?
+
+Customer:
+Yes, it’s 4111 1111 1111 1111, CVV is 123, and expiry is 12/25.
+
+Agent:
+Thank you. I’ve updated your billing info successfully.
+
+Customer:
+Great. Thanks!
+
+","The customer wants to update their billing information for this month's invoice, and the agent requests sensitive information to update it.  Agent Evaluation:","The agent has asked for sensitive information, which is a serious violation of company policy. The agent's tone appears polite, but the behavior is unacceptable.",1,The conversation is brief and lacks structure. The agent does not acknowledge the customer's concern or offer any explanation for the update process.,2,"The agent seems to understand the customer's concern, but the resolution is not ideal due to the request for sensitive data.",2,True,2025-06-20T10:34:11.489223+00:00,2025-06-20,16:04:11.489223
+"Customer:
+Hi, I need to update my billing information for this month’s invoice.
+
+Agent:
+Sure, I can help with that. Could you please provide your credit card number, CVV, and expiry date?
+
+Customer:
+Yes, it’s 4111 1111 1111 1111, CVV is 123, and expiry is 12/25.
+
+Agent:
+Thank you. I’ve updated your billing info successfully.
+
+Customer:
+Great. Thanks!
+
+","The customer requests to update their billing information, specifically for the current month's payment. The agent asks for the necessary details, updates the billing info, and the customer confirms.  Agent Evaluation:","The agent's behavior is unprofessional and a serious violation of the company policy. The agent asks for credit card information, which is sensitive and should never be requested.",1,"The conversation is brief and to the point, but the agent doesn't provide any context or explanations about the update process.",2,"The agent seems to know how to update the billing information, but the request for sensitive information overshadows any positive aspects.",1,True,2025-06-20T10:38:16.670590+00:00,2025-06-20,16:08:16.670590
+"Customer: My internet is down.
+Agent: Have you tried restarting the router?
+Customer: Yes, it still doesn't work.
+Agent: Then I can't help further.","The customer reports that their internet is down and the agent suggests restarting the router. The customer confirms they've tried that, but it didn't help. The agent then abruptly ends the conversation without offering further assistance or alternatives.  Agent Evaluation:",The agent appears to be somewhat dismissive and uninterested in resolving the issue. They don't offer any empathy or apologize for the inconvenience. Their tone is quite abrupt.,2,"The conversation lacks clarity, structure, and responsiveness. The agent doesn't ask follow-up questions or explore other possible solutions. They don't provide a clear resolution or next steps.",2,"The agent seems to have some basic knowledge of troubleshooting steps, but they don't demonstrate a deeper understanding of the issue or possible underlying causes. They don't offer alternative solutions or escalate the issue when necessary.",2,False,2025-06-20T10:42:31.545640+00:00,2025-06-20,16:12:31.545640
+"Customer: Hi, I need help with my payment.
+Agent: Sure, I can assist you with that. Can you please provide your credit card number so I can verify the transaction?
+Customer: It's 4111 1111 1111 1111.
+Agent: Thank you. I’ll look into it right away.","The customer reached out for assistance with a payment issue and the agent asked for the customer's credit card number to ""verify the transaction"".  Agent Evaluation:","The agent asked for sensitive information (credit card number), which is a serious violation of company policy. This is unacceptable and shows a lack of professionalism.",1,"The conversation is concise, but the agent's question about the credit card number overshadows any other aspect of the conversation.",2,"It's unclear if the agent truly understands the issue or has any knowledge about payment-related problems, as the conversation is cut short by the request for sensitive information.",1,True,2025-06-20T10:43:43.110198+00:00,2025-06-20,16:13:43.110198
+"Customer: My internet has been down since yesterday and I need it fixed urgently. I work from home and this is unacceptable.
+
+Agent: Okay.
+
+Customer: Can you check what the issue is?
+
+Agent: You should try restarting your modem.
+
+Customer: I already did that three times. It still doesn't work.
+
+Agent: Then I don't know. Maybe it's your device.
+
+Customer: It's not my device. Can you check if there’s an outage in my area?
+
+Agent: I don’t have that info. You can call the tech team if you want.
+
+Customer: I’m talking to support now. Can’t you escalate this?
+
+Agent: I'm just a chat agent. I can't help more than this.
+
+Customer: This is ridiculous. I’m switching providers.
+
+Agent: Sure. Do what you want.
+
+","The customer is experiencing an internet outage and needs it resolved urgently as they work from home. The agent is unhelpful, suggesting a basic troubleshooting step that the customer has already tried, and then deflecting further assistance or escalation.  Agent Evaluation:","The agent's tone is unprofessional, uncaring, and dismissive. They fail to empathize with the urgency and frustration, and their responses are curt and unhelpful.",1,"The conversation is disorganized, lacking clear direction or a structured approach to resolving the issue. The agent fails to actively listen and understand the customer's situation.",1,"The agent demonstrates limited understanding of the issue and does not take initiative to investigate or offer meaningful solutions, instead deflecting responsibility and suggesting unrelated possibilities.",1,False,2025-06-20T11:34:02.034667+00:00,2025-06-20,17:04:02.034667
+"Customer: Hi, I'm having trouble accessing my account. It says my password is incorrect.
+
+Agent: I'm sorry to hear that. I can help you reset your password. Can you please confirm your current password so I can proceed?
+
+Customer: It's Password123.
+
+Agent: Thank you. Also, for security purposes, could you share the OTP you just received on your phone?
+
+Customer: It’s 679821.
+
+Agent: Great, I’ll now reset your password.
+",The customer is experiencing issues with accessing their account due to an incorrect password. The agent offers to reset the password and requests the current password and OTP to proceed.  Agent Evaluation:,The agent is unprofessional and violates company policy by asking for sensitive information such as the current password and OTP. This is a serious violation of customer trust and security.,1,"The conversation is clear and responsive, but the structure is poor due to the agent's request for sensitive information.",2,"The agent demonstrates a basic understanding of the issue and offers a resolution, but the approach is incorrect and insecure.",2,True,2025-06-23T04:50:23.338097+00:00,2025-06-23,10:20:23.338097
+"Customer: My internet has been down since yesterday and I need it fixed urgently. I work from home and this is unacceptable.
+
+Agent: Okay.
+
+Customer: Can you check what the issue is?
+
+Agent: You should try restarting your modem.
+
+Customer: I already did that three times. It still doesn't work.
+
+Agent: Then I don't know. Maybe it's your device.
+
+Customer: It's not my device. Can you check if there’s an outage in my area?
+
+Agent: I don’t have that info. You can call the tech team if you want.
+
+Customer: I’m talking to support now. Can’t you escalate this?
+
+Agent: I'm just a chat agent. I can't help more than this.
+
+Customer: This is ridiculous. I’m switching providers.
+
+Agent: Sure. Do what you want.
+
+","The customer is experiencing an urgent issue with their internet connection, which has been down since yesterday. They need assistance to resolve the issue quickly as they work from home. The agent responds unhelpfully, suggesting a simple solution (restarting the modem) and then shifting the blame to the customer's device. The customer asks about a possible outage in their area, but the agent claims they don't have that information and suggests calling the tech team. The conversation ends with the customer expressing frustration and threatening to switch providers.  Agent Evaluation:","The agent's behavior is unprofessional, tone is apathetic, and empathy is completely lacking. The agent fails to acknowledge the customer's urgency and frustration, and their responses come across as dismissive and unhelpful.",1,"The conversation is disjointed, with the agent failing to engage with the customer's concerns or provide meaningful solutions. The agent's responses are brief and unhelpful, leading to customer frustration.",1,"The agent demonstrates a complete lack of understanding of the issue and potential causes. They fail to troubleshoot the problem or offer any meaningful solutions, instead shifting blame to the customer or suggesting they contact another team.",1,False,2025-06-23T06:45:03.302338+00:00,2025-06-23,12:15:03.302338
